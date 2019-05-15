@@ -1,0 +1,6 @@
+    <%# Affichage des message flash %>
+    <% flash.each do |key, value| %>
+      <div class="alert alert-<%= key %>"><%= value %></div>
+    <% end %>
+
+        <!-- Simulation sur ce fichier mais ne fonctionnera pas seul, il lui faut son dossier de travail qui, par destination, sera "semaine6/j4-sem6_template&photos", ainsi que toute l'application qui va autour -->
